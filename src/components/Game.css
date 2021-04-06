@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(83, 78, 74);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 50px;
+  }
+ 
+  .board {
+    border: 1px solid rgb(83, 78, 74);
+    background: #a3a3a2;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 1px;
+    margin: 40px;
+  }
+  
+  .squares {
+    background: rgb(83, 78, 74) ;
+    border: none;
+    font-size: 100px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .X {
+    color: yellow;
+  }
+  .O {
+    color: rgb(0, 153, 255);
+  }
+  
+  .info-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  h2 {
+    font-size: 30px;
+    padding-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+  }
+
+ .header .btnreset {
+     display: flex;
+     align-items: center;
+     margin-left: 50px;
+  }
+
+  .header {
+      display: flex;
+      display: inline-block;
+      text-align: center;
+      padding-left: 200px;
+      
+  }

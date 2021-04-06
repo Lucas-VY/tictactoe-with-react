@@ -1,0 +1,13 @@
+
+body {
+  background-color: rgb(83, 78, 74);
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+#titulo{
+  color:white;
+}
