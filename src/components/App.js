@@ -34,8 +34,8 @@ const App = () => {
     return (
         <>
             <div className="row">
-                <div className="col-12">
-                    <h1 className="pl-3 text-center">TicTacToe in React.js</h1>
+                <div className="col-12 text-center">
+                    <h1>TicTacToe in React.js</h1>
                 </div>
             </div>
             <Main >

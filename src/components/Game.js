@@ -36,10 +36,9 @@ const Game = props => {
     return (
         <>
             <div className={"" + (props.show === false ? "d-none" : "")}>
-                <h1>TicTacToe in React.js</h1>
                 <div className="header">
                     <h2>{winner ? `${winner} Wins! ` : `It is ${xO} turn!`}</h2>
-                    <button className="btnreset" onClick={refreshPage}>Start Over</button>
+                    <button className="btn btn-light" onClick={refreshPage}>Start Over</button>
                 </div>
                 <Board squares={history[stepNumber]} onClick={handleClick} />
             </div>
