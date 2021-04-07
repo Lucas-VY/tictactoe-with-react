@@ -19,10 +19,10 @@ const InputOptions = props => {
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-10 col-md-6 mb-2" >
-                        <input type="text" name="player1" id="player1" placeholder="Player 1 username" onChange={props.playerHandler1} />
+                        <input type="text" name="player1" id="player1" placeholder="Player 1" onChange={props.playerHandler1} />
                     </div>
                     <div className="col-10 col-md-6">
-                        <input type="text" name="player2" id="player2" placeholder="Player 2 username" onChange={props.playerHandler2} />
+                        <input type="text" name="player2" id="player2" placeholder="Player 2" onChange={props.playerHandler2} />
                     </div>
                 </div>
                 <div className="row mt-3">
