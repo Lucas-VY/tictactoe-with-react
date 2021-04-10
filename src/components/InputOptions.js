@@ -1,7 +1,8 @@
 import React from 'react';
 import './InputOptions.css'
 
-const InputOptions = ({ startGame }) => {
+const InputOptions = ({ startGame, props }) => {
+
     return (
         <div className="container">
     <div className="row">
@@ -20,7 +21,7 @@ const InputOptions = ({ startGame }) => {
                 <input type="text" name="player1" id="player1" placeholder="Player 1" />
             </div>
             <div className="col-10 col-md-6">
-                <input type="text" name="player2" id="player2" placeholder="Player 2"  />
+                <input type="text" name="player2" id="player2" placeholder="Player 2" />
             </div>
         </div>
         <div className="row mt-3">
