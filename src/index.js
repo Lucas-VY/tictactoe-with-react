@@ -8,7 +8,7 @@ import 'bootstrap';
 import 'popper.js';
 
 //Components
-import App from './components/App';
+import App from './App';
 
 
 ReactDOM.render(

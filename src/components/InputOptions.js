@@ -20,15 +20,15 @@ const InputOptions = ({ startGame }) => {
                 <input type="text" name="player1" id="player1" placeholder="Player 1" />
             </div>
             <div className="col-10 col-md-6">
-                <input type="text" name="player2" id="player2" placeholder="Player 2" />
+                <input type="text" name="player2" id="player2" placeholder="Player 2"  />
             </div>
         </div>
         <div className="row mt-3">
             <div className="col-6 col-md-6 text-right ">
-                <button className="text-warning " onClick={() => startGame(true)}>X</button>
+                <button className="text-warning " id=" x" onClick={() => startGame(true)}>X</button>
             </div>
             <div className="col-6 col-md-6 text-left">
-                <button className="text-info " onClick={() => startGame(false)}>0</button>
+                <button className="text-info " id=" o" onClick={() => startGame(false)}>0</button>
             </div>
         </div>
     </div>

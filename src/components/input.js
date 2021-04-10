@@ -1,4 +1,4 @@
-<>
+{/* <>
 <div className={"" + (props.show === false ? "d-none" : "")}>
     <div className="header">
         <h2>{winner ? `${winner ? props.player1 : props.player2} Wins! ` : `It is ${turn ? props.player1 : props.player2}'s turn!`}</h2>
@@ -8,4 +8,6 @@
 </div>
 </>
 );
-};
+}; */
+
+<h2>{winner ? `${winner ? props.player1 : props.player2} Wins! ` : `It is ${xIsNext ? props.player1 : props.player2}'s turn!`}</h2>

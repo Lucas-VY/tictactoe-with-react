@@ -8,9 +8,6 @@ const Game = ({ chooseX }) => {
     const [xIsNext, setXisNext] = useState(chooseX);
     const winner = calculateWinner(board);
 
-    const [player1, setPlayer1] = useState("")
-    const [player2, setPlayer2] = useState("initialState")
-
     const handleClick = i => {
         const boardCopy = [...board];
         if (winner || boardCopy[i]) return;
@@ -19,7 +16,7 @@ const Game = ({ chooseX }) => {
         setXisNext(!xIsNext);
     }
 
-    //restart   
+    //restart btn 
     const refreshPage = () => {
         window.location.reload();
     }
@@ -33,7 +30,7 @@ const Game = ({ chooseX }) => {
                         <h2>{winner ? `${winner} Wins!` : 'It is: ' + (xIsNext ? 'X' : 'O')}</h2>
                         <button className="btn btn-light" onClick={refreshPage}>
                             Reset Game
-            </button>
+                        </button>
                     </div>
                 </div>
                 <Board squares={board} onClick={handleClick} />
