@@ -10,14 +10,14 @@ body {
   }
  
   .board {
-    border: 1px solid rgb(83, 78, 74);
+    border: 3px solid rgb(83, 78, 74);
     background: #a3a3a2;
     width: 500px;
     height: 500px;
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     gap: 1px;
-    margin: 40px;
+    margin: 30px;
   }
   
   .squares {
@@ -31,13 +31,9 @@ body {
   .X {
     color: yellow;
   }
+  
   .O {
     color: rgb(0, 153, 255);
-  }
-  
-  .info-wrapper {
-    display: flex;
-    justify-content: space-between;
   }
   
   h2 {
@@ -58,5 +54,5 @@ body {
       display: inline-block;
       position: relative;
       text-align: center;
-      padding-left: 190px; 
+      padding-left: 180px; 
   }
